@@ -1,0 +1,43 @@
+main {
+    section{
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        text-align: center;
+        padding: 2%;
+        margin: 2%;
+        a {
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 2px;
+            margin: 10%;
+        }
+        a:hover {
+            background-color: rgb(225, 222, 222);
+        }
+        table {
+            border: 1px solid #dededf;
+            height: 100%;
+            width: 100%;
+            table-layout: fixed;
+            border-collapse: collapse;
+            border-spacing: 1px;
+            text-align: center;
+            th {
+                border: 1px solid #dededf;
+                background-color: #eceff1;
+                color: #000000;
+                padding: 5px;
+            }
+            td {
+                border: 1px solid #dededf;
+                background-color: #ffffff;
+                color: #000000;
+                padding: 5px;
+            }
+        }
+    }
+}
